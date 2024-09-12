@@ -4,7 +4,6 @@ function getFirstElement (arr){
     }
     
     }
-    
     const numbers = [1, 2, 3];
     const words = ["apple", "banana", "cherry"];
     
