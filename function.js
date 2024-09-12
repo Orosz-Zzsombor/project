@@ -1,6 +1,8 @@
 function getFirstElement (arr){
-    return arr[0]
+    if (arr.length !=0) {
+        return arr
     }
+
 export function factorial(n) {
     let szam = n
     for (let index = 0; index < n; index++) {
@@ -16,6 +18,10 @@ export function factorial(n) {
         
         console.log(`Factorial of 5: ${factorial(5)}`);
         
+
+    
+    }
+
     const numbers = [1, 2, 3];
     const words = ["apple", "banana", "cherry"];
     
